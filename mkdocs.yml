@@ -1,6 +1,6 @@
 site_name: Platform-Integration-Gaming
-site_description: 'Library to be used as a helper/base package to Platform-Integration-Gaming-XXX services.'
-repo_url: 'https://github.com/gutro/Platform-Integration-Gaming-Base'
+site_description: 'Description'
+repo_url: 'https://github.com/jdo-lv/backstage-playground'
 nav:
   - Home: 'index.md'
 theme:
@@ -11,6 +11,3 @@ theme:
     accent: 'Orange'
 plugins:
   - techdocs-core
-
-markdown_extensions:
-  - plantuml_markdown
