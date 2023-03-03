@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-playground
+  annotations:
+    github.com/project-slug: jdo-lv/backstage-playground
+spec:
+  type: other
+  lifecycle: unknown
+  owner: gaming
