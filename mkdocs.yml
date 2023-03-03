@@ -1,0 +1,16 @@
+site_name: Platform-Integration-Gaming
+site_description: 'Library to be used as a helper/base package to Platform-Integration-Gaming-XXX services.'
+repo_url: 'https://github.com/gutro/Platform-Integration-Gaming-Base'
+nav:
+  - Home: 'index.md'
+theme:
+  name: 'mkdocs'
+  language: 'en'
+  palette:
+    primary: 'Yellow'
+    accent: 'Orange'
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - plantuml_markdown

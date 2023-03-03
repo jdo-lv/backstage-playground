@@ -4,6 +4,7 @@ metadata:
   name: backstage-playground
   annotations:
     github.com/project-slug: jdo-lv/backstage-playground
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
