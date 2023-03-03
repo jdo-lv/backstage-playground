@@ -11,3 +11,4 @@ theme:
     accent: 'Orange'
 plugins:
   - techdocs-core
+  - techdocs-addon-mermaid
