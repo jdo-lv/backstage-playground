@@ -11,4 +11,3 @@ theme:
     accent: 'Orange'
 plugins:
   - techdocs-core
-  - kroki
