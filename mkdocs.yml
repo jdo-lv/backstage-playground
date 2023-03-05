@@ -1,4 +1,4 @@
-site_name: Platform-Integration-Gaming
+site_name: Testing
 site_description: 'Description'
 repo_url: 'https://github.com/jdo-lv/backstage-playground'
 nav:
@@ -11,3 +11,4 @@ theme:
     accent: 'Orange'
 plugins:
   - techdocs-core
+  - kroki

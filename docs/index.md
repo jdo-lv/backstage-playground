@@ -2,7 +2,7 @@
 
 This is an example of documentation
 
-```mermaid
+```kroki-mermaid
 flowchart TD
     S1["Service One"]
     S2["Service Two"]
