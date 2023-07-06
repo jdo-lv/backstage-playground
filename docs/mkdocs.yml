@@ -1,0 +1,16 @@
+site_name: 'Platform-Aux-LiveCasino'
+site_description: 'Service to provide the LiveCasino data from the different providers to be rendered in the different sites'
+repo_url: 'https://github.com/gutro/Platform-Aux-LiveCasino/'
+nav:
+  - LiveCasino Service Overview: 'index.md'
+  - LiveCasino Cache system: 'cachesystem.md'
+  - LiveCasino Data model: 'datamodel.md'
+  - LiveCasino API endpoints: 'api.md'
+  - LiveCasino Kafka events: 'kafkaevents.md'
+  - LiveCasino MDC logging: 'logging.md'
+  - LiveCasino Metrics: 'metrics.md'
+  - LiveCasino Testing: 'testing.md'
+theme:
+  name: 'mkdocs'
+plugins:
+  - techdocs-core
