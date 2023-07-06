@@ -1,11 +1,36 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-playground
+  name: aux-livecasino
+  description: Service responsible for handling live casino data.
+  tags:
+    - java
+    - hyraco
+    - maven
   annotations:
-    github.com/project-slug: jdo-lv/backstage-playground
     backstage.io/techdocs-ref: dir:../
+    backstage.io/kubernetes-label-selector: 'app=aux-livecasino'
+    backstage.io/kubernetes-id: platform-aux-livecasino
+    github.com/project-slug: jdo-lv/backstage-playground
+    jenkins.io/github-folder: Builds/platform-aux-livecasino
+    leovegas.com/component-id: aux-livecasino
+    leovegas.com/maven-coordinate: com.gearsofleo.platform/platform-aux-livecasino-service
+    datadoghq.com/dashboard-url: https://app.datadoghq.eu/apm/services/aux-livecasino
 spec:
-  type: other
-  lifecycle: unknown
-  owner: gaming
+  type: service
+  lifecycle: production
+  owner: group:gaming
+  dependsOn: ["changemanagement:chm-aux-livecasino-service"]
+---
+apiVersion: com.gearsofleo.platform/v1alpha1
+kind: ChangeManagement
+metadata:
+  name: chm-aux-livecasino-service
+  confidentiality: 1
+  integrity: 1
+  availability: 1
+  accountability: 1
+  regulatory-critical:
+    exclude: []
+  scoped-to-license:
+    include: []
