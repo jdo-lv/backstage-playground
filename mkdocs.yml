@@ -1,8 +1,15 @@
-site_name: Testing
-site_description: 'Description'
-repo_url: 'https://github.com/jdo-lv/backstage-playground'
+site_name: 'Platform-Aux-LiveCasino'
+site_description: 'Service to provide the LiveCasino data from the different providers to be rendered in the different sites'
+repo_url: 'https://github.com/gutro/Platform-Aux-LiveCasino/'
 nav:
-  - Home: 'index.md'
+  - LiveCasino Service Overview: 'index.md'
+  - LiveCasino Cache system: 'cachesystem.md'
+  - LiveCasino Data model: 'datamodel.md'
+  - LiveCasino API endpoints: 'api.md'
+  - LiveCasino Kafka events: 'kafkaevents.md'
+  - LiveCasino MDC logging: 'logging.md'
+  - LiveCasino Metrics: 'metrics.md'
+  - LiveCasino Testing: 'testing.md'
 theme:
   name: 'mkdocs'
   language: 'en'
@@ -11,11 +18,3 @@ theme:
     accent: 'Orange'
 plugins:
   - techdocs-core
-
-markdown_extensions:
-  pymdownx.extra:
-    pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format

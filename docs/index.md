@@ -6,7 +6,7 @@ render it in the tiles of the games.
 
 Following a high level block of the integration:
 ### High level block diagram 
-<img src="assets/high-level-diagram-LiveCasino.jpg" width="700" height="600" />
+<img src="assets/overview.jpg" width="700" height="600" />
 
 # Project modules
 The project is a Multi-Module Maven project with the following structure:
