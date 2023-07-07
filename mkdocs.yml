@@ -5,7 +5,6 @@ nav:
   - Architecture:
       - Modules: modules/index.md
       - Flow: modules/flows.md
-      - Metrics: modules/metrics.md
       - Events: modules/kafkaevents.md
       - API: modules/api.md
       - Testing: modules/testing.md
